@@ -75,3 +75,36 @@ def exponents(bases, powers):
 def max_num(nums):
 	nums = sorted(nums)
 	return nums[-1]
+
+def reverse(lst1, lst2):
+	for index in range(len(lst1)):
+		if lst1[index] != lst2
+
+
+
+def letter_check(word, letter):
+	return letter in word
+
+def common(s1, s2):
+	lst3 = []
+	for letter in s1:
+		if letter in
+
+
+def uniques(word):
+	dict = {}
+	count = 0
+	for char in word:
+		dict[word] += 1
+	if dict[word] == 1:
+		count += 1
+	return count
+
+def length(sen, x):
+	sen = sen.split()
+	for word in sen:
+		if len(word) < x:
+			return False
+	return True
+
+def
