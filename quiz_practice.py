@@ -136,4 +136,16 @@ def adj(word):
 def highlow(word):
 	return sorted(word[0], word[-1])
 
+def reverse(sen):
+	return sen[::-1]
 
+def hide(arr):
+	return arr[:-4] 
+
+def reverse(lst):
+	return [-x for x in lst]
+
+def iso(word):
+	for char in word:
+		if word.count(char) > 1:
+			return False
