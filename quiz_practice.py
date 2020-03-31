@@ -107,4 +107,33 @@ def length(sen, x):
 			return False
 	return True
 
-def
+def name(sen, name):
+	return name in sen
+
+
+def every(word):
+	return word[::2]
+
+def remove(arr, S):
+	new = ""
+	for char in arr:
+		if char not in S:
+			new += char
+	return new
+
+def first(word):
+	for char in word:
+		if word.count(char) == 1:
+		return char 
+
+def adj(word):
+	new = ""
+	for i in range(len(word)-1):
+		if word[i] != word[i+1]:
+			new += word[i]
+		return new
+
+def highlow(word):
+	return sorted(word[0], word[-1])
+
+
