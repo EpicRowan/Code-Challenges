@@ -149,3 +149,8 @@ def iso(word):
 	for char in word:
 		if word.count(char) > 1:
 			return False
+
+def shortest(sen):
+	shortest = ""
+	sen = sen.split()
+	for word in sen:
