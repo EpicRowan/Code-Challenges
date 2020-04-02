@@ -154,3 +154,30 @@ def shortest(sen):
 	shortest = ""
 	sen = sen.split()
 	for word in sen:
+
+
+def vowel(word):
+	nums = []
+	for i in range(len(word)):
+		if word[i] in "aeiou":
+			nums.append(i)
+	return nums
+
+
+def max_prod(arr):
+	highest = 0
+	for i in range(len(arr)- 1):
+		if arr[i] * arr[i+1] > highest:
+			highest = arr[i] * arr[i+1]
+	return highest
+
+def cap_evens(word):
+	new = ""
+	for i in range(len(word)):
+		if i % 2 == 0:
+			new += word[i]
+	return new
+
+def add_ind(arr, num):
+	for i in range(len(arr)):
+		
