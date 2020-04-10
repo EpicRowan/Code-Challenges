@@ -181,3 +181,8 @@
 # def add_ind(arr, num):
 # 	for i in range(len(arr)):
 		
+# def find_mean(arr):
+# 	mean = int(sum(arr) / float(len(arr)))
+# 	return {f'Mean': mean}	
+
+# print(find_mean([1,2,3]))
