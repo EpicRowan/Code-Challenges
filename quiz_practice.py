@@ -186,3 +186,22 @@
 # 	return {f'Mean': mean}	
 
 # print(find_mean([1,2,3]))
+
+# def find_len(arr, num):
+# 	if arr.count(num) != 2:
+# 		return 0
+# 	a = arr.index(num)
+# 	b = arr.index(num, a + 1)
+# 	return b
+
+# print(find_len([1,3,2,3], 3))
+
+# def same_values(lst1, lst2):
+# 	result = []
+# 	for i in range(len(lst1)):
+# 		for j in range(len(lst2)):
+# 			if lst1[i] == lst2[j]:
+# 				result.append(i)
+# 				result.append(j)
+# 			return result
+# def
