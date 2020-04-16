@@ -204,4 +204,13 @@
 # 				result.append(i)
 # 				result.append(j)
 # 			return result
-# def
+
+def reverse_digits(x):
+	if x > 0:
+		a = int(str(x)[::-1])
+	mina = -2**31
+	maxa = 2**31 - 1
+	if a not in range(mina, maxa):
+		return 0
+	else:
+		return a
