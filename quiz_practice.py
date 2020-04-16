@@ -205,12 +205,32 @@
 # 				result.append(j)
 # 			return result
 
-def reverse_digits(x):
-	if x > 0:
-		a = int(str(x)[::-1])
-	mina = -2**31
-	maxa = 2**31 - 1
-	if a not in range(mina, maxa):
-		return 0
-	else:
-		return a
+# def reverse_digits(x):
+# 	if x > 0:
+# 		a = int(str(x)[::-1])
+# 	mina = -2**31
+# 	maxa = 2**31 - 1
+# 	if a not in range(mina, maxa):
+# 		return 0
+# 	else:
+# 		return a
+
+# def is_valid(str):
+# 	return len(str) in (4,6) and str.isdigit()
+
+# def shift_right(name):
+# 	new = ""
+# 	for i in range(len(name)- 1):
+# 		new.append(name[i+1])
+# 	return new
+
+# def changes(str):
+# 	new = ""
+# 	for char in str:
+# 		if char.isalpha():
+# 			if char != "z":
+# 				new = new + chr(ord(char)+ 1)
+# 	return new
+
+def find_sum(a,b):
+	return sum(range(min(a,b), max(a,b)+ 1))
