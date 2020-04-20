@@ -232,5 +232,18 @@
 # 				new = new + chr(ord(char)+ 1)
 # 	return new
 
-def find_sum(a,b):
-	return sum(range(min(a,b), max(a,b)+ 1))
+# def find_sum(a,b):
+# 	return sum(range(min(a,b), max(a,b)+ 1))
+
+# def index_mid(arr):
+# 	a = int(sorted(str(arr))
+# 	return a[1]
+
+def gimmer(arr):
+	arr.index(sorted(arr[1]))
+
+def combo_sort(lst1, lst2):
+	new = lst1 + lst2
+	return sorted(new)
+
+num = random.randint(1,101) for i in range (101)
