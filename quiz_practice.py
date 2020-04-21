@@ -290,3 +290,28 @@ def odds(lst):
 		if i % 2 != 0:
 			new.append(lst[i])
 	return new 
+
+def shift(name):
+	new = ""
+	for i in range(len(name)):
+
+def filter(str):
+	new = []
+	for char in str:
+		if char.isdigit():
+			new.append(char)
+
+def findSum(n):
+	return sum(i for i in range(1, n+1) if i%3 == 0 or i % 5 == 0)
+
+def roundup(num):
+	while num % 5 != 0:
+		num += 1
+	return num
+
+def reverse(str):
+	new = ""
+	for char in str:
+		if char.isalpha():
+			new += char
+	return sorted(new)
