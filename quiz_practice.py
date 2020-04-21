@@ -239,11 +239,54 @@
 # 	a = int(sorted(str(arr))
 # 	return a[1]
 
-def gimmer(arr):
-	arr.index(sorted(arr[1]))
+# def gimmer(arr):
+# 	arr.index(sorted(arr[1]))
 
-def combo_sort(lst1, lst2):
-	new = lst1 + lst2
-	return sorted(new)
+# def combo_sort(lst1, lst2):
+# 	new = lst1 + lst2
+# 	return sorted(new)
 
-num = random.randint(1,101) for i in range (101)
+# num = random.randint(1,101) for i in range (101)
+
+# def middle_ele(lst):
+# 	if len(lst) % 2 == 0:
+# 		total = lst[len(lst)/2] + lst(len/2 - 1)
+
+# def indi(lst, num):
+# 	result = set()
+# 	for i in range(len(lst)):
+# 		for j in range(len(lst)):
+# 			if lst[i] + lst[j] == num:
+# 				result.append(i)
+# 				result.append(j)
+# 	return result
+
+# def uppers(str):
+# 	upper = 0
+# 	lower = 0
+# 	for char in str:
+# 		if char.isupper():
+# 			upper += 1
+# 		else:
+# 			lower += 1
+# 	if upper > lower:
+# 		return str.
+
+# def strings(lst):
+# 	new = []
+# 	for char in lst:
+# 		if char.isdigit():
+# 			new.append(char)
+# 	return new 
+
+def delete(lst):
+	while lst[0] % 2 == 0:
+		lst = lst[1:]
+	return lst 
+
+def odds(lst):
+	new = []
+	for i in range(len(lst)):
+		if i % 2 != 0:
+			new.append(lst[i])
+	return new 
