@@ -20,3 +20,6 @@ def isValid(s):
 		# In the end, if the stack is empty, then we have a valid expression.
 		#The stack won't be empty for cases like ((()
 	return not stack
+
+
+	
