@@ -9,3 +9,6 @@ def longestCommonPrefix(arr):
     return result
 
 print(longestCommonPrefix(["pie", "pig", "pit"]))
+
+
+
