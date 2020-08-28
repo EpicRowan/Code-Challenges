@@ -5,3 +5,5 @@ def remove_adjacent(str):
 		if str[i] != str[i+1]:
 			new += str[i]
 	return new 
+
+
