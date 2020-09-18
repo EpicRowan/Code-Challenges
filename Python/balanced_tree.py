@@ -9,3 +9,4 @@ class balanced:
 				current = current.left
 			elif sought >current.data:
 				current = current.right
+		return False
